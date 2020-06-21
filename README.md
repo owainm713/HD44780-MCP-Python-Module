@@ -46,7 +46,7 @@ Current functions include:
 - initialization - LCD = HD44780MCP.HD44780(mcp, rs, rw, e, dbList = [], rows = 1, characters = 16, mode = 0, font = 0)
 - rs, rw, e are the pi pin numbers to connect to the LCD rs, rw & e pins
 - rw is optional - if not using, assign to -1 and tie LCD rw pin to Pi Gnd
-- dbList is a list of pi pin numbers to connect to the LCD/HD44780 DB0-DB7 pins
+- dbList is a list of mcp pin numbers to connect to the LCD/HD44780 DB0-DB7 pins
 - rows - number of rows on the LCD display, only 1, 2 & 4 are currently valid
 - characters - number of characters per row on the LCD display
 - mode - 0 for 4 bit mode, 1 for 8 bit mode
